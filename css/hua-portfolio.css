@@ -370,6 +370,15 @@ a {
   right: 0;
 }
 
+.swirl-image.vertical-swirl {
+  width: auto;
+}
+
+.swirl-image.horizontal-swirl {
+  width: 30%;
+  height: auto;
+}
+
 .subhead {
   color: #000;
   text-transform: uppercase;
@@ -477,8 +486,8 @@ a {
   padding-left: 100px;
   padding-right: 100px;
   font-family: Recursive Mono Linear, sans-serif;
-  font-size: 34px;
-  line-height: 1.75em;
+  font-size: 32px;
+  line-height: 1.74em;
 }
 
 .homepage-description.contact-email {
@@ -830,6 +839,15 @@ a {
     height: 50%;
   }
 
+  .swirl-image.vertical-swirl {
+    height: 65%;
+  }
+
+  .swirl-image.horizontal-swirl {
+    width: 35%;
+    height: auto;
+  }
+
   .post-image {
     margin-bottom: 20px;
   }
@@ -969,11 +987,22 @@ a {
   }
 
   .list-item.paragraph-list-item {
+    width: 90%;
     font-size: 20px;
   }
 
   .list.paragraph-list-item {
     margin-top: 40px;
+  }
+
+  .list.paragraph-list-item.number {
+    padding-left: 60px;
+    padding-right: 0;
+    list-style-type: decimal;
+  }
+
+  .list.paragraph-list-item.numbered-list {
+    list-style-type: decimal;
   }
 
   .list.overview-list-item.number {
@@ -985,7 +1014,16 @@ a {
   }
 
   .swirl-image {
+    height: 80%;
     padding: 20px;
+  }
+
+  .swirl-image.vertical-swirl {
+    height: 65%;
+  }
+
+  .swirl-image.horizontal-swirl {
+    width: 45%;
   }
 
   .subhead {
@@ -1040,8 +1078,8 @@ a {
     padding-left: 0;
   }
 
-  .menu-link.menu-link-style.nav-minus-margin {
-    margin-left: 40px;
+  .menu-link.menu-link-style.nav-minus-margin, .menu-link.menu-link-style.nav-minus-margin.w--current {
+    margin-left: 30px;
   }
 
   .writing-list {
@@ -1143,7 +1181,7 @@ a {
   }
 
   .list-item.paragraph-list-item {
-    width: 90%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
@@ -1157,12 +1195,15 @@ a {
   .list.paragraph-list-item {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .list.paragraph-list-item.number {
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .list.minuslistmargin.paragraph-list-item {
@@ -1184,6 +1225,23 @@ a {
 
   .headerwrapper {
     align-items: flex-start;
+  }
+
+  .swirl-image {
+    width: auto;
+    height: 60%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .swirl-image.vertical-swirl {
+    height: 50%;
+  }
+
+  .swirl-image.horizontal-swirl {
+    width: 35%;
+    height: auto;
   }
 
   .subhead {
